@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center fw-bold">Assignment: 01</h1>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div
+                    style=" background-color: rgb(0, 73, 72); height: 550px; display: flex; justify-content: center; align-items: center; border-radius: 10px;">
+                    <div class="Checker">
+                        <h2 class="text-warning">Input Mobile Details</h2>
+
+                        <input required id="brand-name" class="input" type="text"
+                            placeholder="   Enter Mobile Company"><br>
+                        <input required id="model-name" class="input" type="text" placeholder="  Enter Mobile Model">
+
+
+                        <button id="btn" type="submit" onclick="demo()">Submit</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="demo">
+                    <div id="show">
+                        <h2 class="text-warning"> Details</h2>
+
+                        <hr>
+
+                        <p id="para">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>
